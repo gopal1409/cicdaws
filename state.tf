@@ -4,6 +4,7 @@ terraform{
         bucket = "aws-cicd-pipeline-gopal"
         encrypt = true
         key = "terraform.tfstate"
+        //verify the region
         region = "us-east-1"
     }
 }
