@@ -4,3 +4,6 @@ phases:
     commands:
       - terraform init
       - terraform validate
+  build:
+    commands:
+      - terraform apply --auto-approve    
